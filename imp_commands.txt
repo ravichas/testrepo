@@ -48,4 +48,40 @@ git --version
 git config --global user.email "sr@gmail.com"
 git config --global user.name "my name" 
 
+# to check the config
+git config -l
+git config user.email
+
+## Terminology
+
+Git  (current working dir)
+Working Tree  (workbench)
+Staging Area (trolly that moves into the git tree)
+
+
+
+1) make sure you are up-to-date with the main repo
+2) git status
+3) git add new_file
+4) git status
+5) git commit -m "made modifications"
+6) git push
+
+file can be in one of the 3 stages
+
+modified (working dir)
+staged   (staging area)
+committed (git dir)
+
+
+# check the log 
+
+git log
+
+
+# git -m -l file "comment"  to add and commit in one step
+
+# look at gitlog. you will see the HEAD at the top this indicates the latest change
+
+HEAD: indicates the latest checkout snapshot of the project
 
