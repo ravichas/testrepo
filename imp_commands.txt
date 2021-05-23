@@ -168,3 +168,22 @@ git checkout new-feature
 
 git checkout -b new-feature # created and moved to the new branch
 
+
+## summary
+
+git branch	Used to manage branches
+git branch <name> 	Creates the branch
+git branch -d <name>	Deletes the branch
+git branch -D <name>	Forcibly deletes the branch
+git checkout <branch> 	Switches to a branch.
+git checkout -b <branch>	Creates a new branch and switches to it.
+git merge <branch> 	Merge joins branches together.
+git merge --abort	If there are merge conflicts (meaning files are incompatible), --abort can be used to abort the merge action.
+git log --graph --oneline	This shows a summarized view of the commit history for a repo.
+
+Command	Explanation & Link
+git clone URL	Git clone is used to clone a remote repository into a local workspace
+git push	Git push is used to push commits from your local repo to a remote repo
+git pull	Git pull is used to fetch the newest updates from a remote repository
+
+
