@@ -121,3 +121,17 @@ git reset HEAD notinclude_file
 
 
 
+
+# AVOID --amend in public repo. It is ok to fix the comment in local before pushing. 
+# use git --amend to modify the previous commit messages
+
+For example, if you created two new files, file1 and file2 
+but added/commited only one. 
+You can fix this by adding the second file and 
+commit --amend # this will open up the editor and amend your previous commit message
+
+
+# git revert to revert before pushing. 
+
+
+
