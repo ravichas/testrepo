@@ -156,6 +156,16 @@ There are a few ways you can rollback commits in Git.
 
 There are some interesting considerations about how git object data is stored, such as the usage of sha-1.
 
+# branch
+
+git status # just make sure it is updated
+
+git branch  # to see al the branches
+
+git branch new-feature
+git branch # to check out 
+git checkout new-feature
 
 
+git checkout -b new-feature # created and moved to the new branch
 
