@@ -1,0 +1,51 @@
+diff -u new_file old_file > diff_file 
+
+patch file.py < file.diff 
+
+
+# example 
+
+cat "Hello World" > hello_world.txt
+
+ravichandrans@FR-N-S096026 MINGW64 ~/Documents/GitHub/testrepo/Ignore (main)
+$ cat hello_world.txt
+Hello World
+
+ravichandrans@FR-N-S096026 MINGW64 ~/Documents/GitHub/testrepo/Ignore (main)
+$ cat hello_world_long.txt
+Hello World
+
+It's a wonderful day!
+
+ravichandrans@FR-N-S096026 MINGW64 ~/Documents/GitHub/testrepo/Ignore (main)
+$ diff -u hello_world.txt hello_world_long.txt
+--- hello_world.txt     2021-05-23 14:16:05.787452400 -0400
++++ hello_world_long.txt        2021-05-23 14:16:29.139672500 -0400
+@@ -1 +1,3 @@
+ Hello World
+ +
+ +It's a wonderful day!
+
+
+# to apply patch do the following
+
+ravichandrans@FR-N-S096026 MINGW64 ~/Documents/GitHub/testrepo/Ignore (main)
+$ diff -u hello_world.txt hello_world_long.txt > hello_world.diff
+
+ravichandrans@FR-N-S096026 MINGW64 ~/Documents/GitHub/testrepo/Ignore (main)
+$ patch < hello_world.diff
+patching file hello_world.txt
+
+
+
+
+## Git version
+
+git --version
+
+
+## Setup config
+git config --global user.email "sr@gmail.com"
+git config --global user.name "my name" 
+
+
