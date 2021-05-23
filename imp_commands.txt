@@ -110,8 +110,14 @@ git mv	Similar to the Linux `mv` command, this moves a file
 git rm	Similar to the Linux `rm` command, this deletes, or removes a file
 
 
-# if you want to revert the changes use checkout 
+# if you want to revert the changes before you add the file to the staging are use checkout 
 
 git checkout mod_file.txt
+
+
+# what happens if you added the file to the staging area and want to revert without committing. 
+git status
+git reset HEAD notinclude_file 
+
 
 
