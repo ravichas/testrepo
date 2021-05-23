@@ -135,4 +135,3 @@ commit --amend # this will open up the editor and amend your previous commit mes
 
 
 
-## ***** THIS I WANT TO DELTE
