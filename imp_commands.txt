@@ -166,6 +166,5 @@ git branch new-feature
 git branch # to check out 
 git checkout new-feature
 
-
 git checkout -b new-feature # created and moved to the new branch
 
